@@ -8,7 +8,7 @@ But the Function App throws an exception for any request(both POST and GET).
 > Exception while executing function: Test -> Method not found: 'System.Net.Http.HttpResponseMessage System.Net.Http.HttpRequestMessageExtensions.CreateResponse(System.Net.Http.HttpRequestMessage, System.Net.HttpStatusCode, !!0)'.
 
 It can be reproduced by reference `Microsoft.Extensions.Logging.Abstraction`.
-No other code is needed. Just reference the package, it will brake your Function App.
+No other code is needed. Just reference the package, it will break your Function App.
 It can be also reproduced by reference other library that references `Microsoft.Extensions.Logging.Abstraction`.
 
 Funny thing is, `Microsoft.NET.Sdk.Functions (1.0.2)` has reference of `Microsoft.Extensions.Logging.Abstraction (2.0.0)` implicitly via `Microsoft.Azure.WebJobs (2.1.0-beta1)`, but it won't be a problem unless you reference to `Logging.Abstraction` explicitly.
