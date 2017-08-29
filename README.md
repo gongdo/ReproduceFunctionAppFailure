@@ -35,6 +35,11 @@ Content-Length: 4288
 
 ## Solution Setup
 
+### Environment
+- Windows 10
+- Visual Studio 2017 Update 3
+  - Azure Function App SDK
+
 ### LoggingFunctionApp
 - Created by Azure Function App Project Template
 - NuGet
