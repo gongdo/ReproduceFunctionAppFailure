@@ -1,6 +1,8 @@
 # ReproduceFunctionAppFailure
 Reproduces Function App failure when references Microsoft.Extensions.Logging.Abstraction
 
+> see https://social.msdn.microsoft.com/Forums/azure/en-US/a69bf35b-cd5a-4d92-8ead-c75f425c7abe/to-reference-microsoftextensionsloggingabstraction-breaks-the-function-app?forum=AzureFunctions
+
 ## Problem
 I want to integrate logging system with `Microsoft.Extensions.Logging.ILogger` in Azure Function App.
 
